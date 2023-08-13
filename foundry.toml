@@ -1,0 +1,7 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+
+remappings = ["ds-test =/ds-test", "devops =/foundry-devops", "openzeppelin-contracts =/openzeppelin-contracts", "chainlink-brownie-contract =/chainlink-brownie-contracts"]
+# See more config options https://github.com/foundry-rs/foundry/tree/master/config
