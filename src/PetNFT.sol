@@ -7,6 +7,8 @@ pragma solidity 0.8.19;
 
 import {ERC721} from "lib/openzeppelin-contracts/contracts/token/ERC721/ERC721.sol";
 import {Ownable} from "lib/openzeppelin-contracts/contracts/access/Ownable.sol";
+import {VRFCoordinatorV2Interface} from "lib/chainlink-brownie-contracts/contracts/src/v0.8/interfaces/VRFCoordinatorV2Interface.sol";
+import {VRFConsumerBase} from "lib/chainlink-brownie-contracts/contracts/src/v0.8/dev/VRFConsumerBase.sol";
 
 contract PetNFT is ERC721, Ownable {
     /// -----------------------------------------------------------------------
